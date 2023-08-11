@@ -1,16 +1,19 @@
-#include <stdio.hm>
+#include <stdio.h>
 
 /**
- * main - alphabet
+ * main - numer 3
  *
- * Return: alway 0
+ * Return: always 0
  */
 int main(void)
 {
-	char e;
+	int e;
+	char r;
 
-	for (e + 'z'; e >= 'a'; a--)
-		putchar(e);
+	for (e = 0; e < 10; e++)
+	putchar(e + '0');
+	for (r = 'a'; r <= 'f'; r++)
+	putchar(r);
 	putchar('\n');
 	return (0);
 }
