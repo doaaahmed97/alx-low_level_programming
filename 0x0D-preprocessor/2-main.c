@@ -1,7 +1,7 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - print the name of this source file 
+ * main - print the name of this source file
  *
  * Return: 0 always
  */
@@ -9,5 +9,5 @@
 int main(void)
 {
 	printf("%s\n", __FILE__);
-	return 0;
+	return (0);
 }
