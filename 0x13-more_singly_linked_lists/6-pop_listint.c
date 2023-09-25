@@ -14,11 +14,11 @@ int con;
 if (*head == NULL)
 return (0);
 
-popped = *head;
-con = popped->n;
-free(popped);
+con = (*head)->n;
+popped =(*head)->next;
+free(*head);
+*head = popped;
 
-*head = (*head)->next;
 return (con);
 
 }
