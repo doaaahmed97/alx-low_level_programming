@@ -15,7 +15,7 @@ if (*head == NULL)
 return (0);
 
 con = (*head)->n;
-popped =(*head)->next;
+popped = (*head)->next;
 free(*head);
 *head = popped;
 
